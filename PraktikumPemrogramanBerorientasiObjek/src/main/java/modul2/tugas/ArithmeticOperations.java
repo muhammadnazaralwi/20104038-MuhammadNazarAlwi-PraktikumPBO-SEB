@@ -3,7 +3,7 @@ package modul2.tugas;
 import java.util.Scanner;
 
 public class ArithmeticOperations {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int testCaseCount;
         int[] a, b, c, result;
