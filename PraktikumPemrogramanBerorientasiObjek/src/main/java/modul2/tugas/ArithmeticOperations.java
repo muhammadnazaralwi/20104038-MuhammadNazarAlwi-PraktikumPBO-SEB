@@ -21,6 +21,10 @@ public class ArithmeticOperations {
             result[i] = a[i] + b[i] - c[i];
         }
 
+        print(result, testCaseCount);
+    }
+
+    private void print(int[] result, int testCaseCount) {
         for (int i = 0; i < testCaseCount; i++) {
             System.out.println(result[i]);
         }
