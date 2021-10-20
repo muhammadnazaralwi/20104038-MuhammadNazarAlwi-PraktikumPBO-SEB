@@ -14,14 +14,19 @@ public class ArithmeticOperations {
         c = new int[testCaseCount];
         result = new int[testCaseCount];
 
+        input(a, b, c, testCaseCount, result);
+
+        print(result, testCaseCount);
+    }
+
+    private void input(int[] a, int[] b, int[] c, int testCaseCount, int[] result) {
+        Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < testCaseCount; i++) {
             a[i] = scanner.nextInt();
             b[i] = scanner.nextInt();
             c[i] = scanner.nextInt();
             result[i] = a[i] + b[i] - c[i];
         }
-
-        print(result, testCaseCount);
     }
 
     private void print(int[] result, int testCaseCount) {
