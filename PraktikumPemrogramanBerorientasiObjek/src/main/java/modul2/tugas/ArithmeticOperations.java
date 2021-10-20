@@ -3,7 +3,7 @@ package modul2.tugas;
 import java.util.Scanner;
 
 public class ArithmeticOperations {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int testCaseCount;
         int[] a, b, c, result;
@@ -19,7 +19,7 @@ public class ArithmeticOperations {
         print(result, testCaseCount);
     }
 
-    private void input(int[] a, int[] b, int[] c, int testCaseCount, int[] result) {
+    private static void input(int[] a, int[] b, int[] c, int testCaseCount, int[] result) {
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < testCaseCount; i++) {
             a[i] = scanner.nextInt();
@@ -29,7 +29,7 @@ public class ArithmeticOperations {
         }
     }
 
-    private void print(int[] result, int testCaseCount) {
+    private static void print(int[] result, int testCaseCount) {
         for (int i = 0; i < testCaseCount; i++) {
             System.out.println(result[i]);
         }
