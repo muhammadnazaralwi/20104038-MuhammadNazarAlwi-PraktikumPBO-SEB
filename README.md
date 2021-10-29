@@ -1,4 +1,3 @@
-
 ## Modul 2: Dasar Pemrogramman Java
  
 ### Dasar Teori
@@ -14,10 +13,10 @@ Java mempunyai 8 tipe dasar, yaitu boolean, char, byte, short, int, long, float,
 Variabel adalah item yang digunakan data untuk menyimpan pernyataan objek. Variabel memiliki tipe data dan nama. Tipe data menandakan tipe nilai yang dapat dibentuk oleh variabel itu sendiri. Nama variabel harus mengikuti aturan untuk identifier.
 
 	Berikut Aturan penamaan variable:
-		1. Diawali dengan : huruf/abjad atau karakter mata uang atau underscore ( _ )
-		2. Terdiri dari huruf/abjad, angka dan underscore
-		3. Tidak boleh mengandung karakter khusus atau spasi
-		4. Tidak boleh diawali dengan angka
+	1. Diawali dengan : huruf/abjad atau karakter mata uang atau underscore ( _ )
+	2. Terdiri dari huruf/abjad, angka dan underscore
+	3. Tidak boleh mengandung karakter khusus atau spasi
+	4. Tidak boleh diawali dengan angka
 	
 * Casting dan Promotion 
 Casting diperlukan untuk mengkonversi dari suatu tipe ke tipe data yang lebih kecil panjang bitnya. Sedangkan promotion terjadi pada saat mengkonversi dari suatu tipe data ke tipe data yang lebih panjang bitnya.
