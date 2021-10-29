@@ -1,3 +1,4 @@
+
 ## Modul 2: Dasar Pemrogramman Java
  
 ### Dasar Teori
@@ -53,7 +54,8 @@ Casting diperlukan untuk mengkonversi dari suatu tipe ke tipe data yang lebih ke
 	Jika variabel pencacah pada looping sudah bernilai 1, maka cetak **Mati 1 tinggal Induknya**. Pada kasus tersebut dibutuhkan conditional statement untuk mengecek nilai dari variabel pencacah. Dan tambahkan statement `break` untuk segera mengakhiri looping agar program tidak mengeksekusi kode di bawahnya.
 		
 * Soal 3
-Karena pada soal diminta untuk menginputkan bilangan 3 buah bilangan sebanyak nilai dari test case, bilang tersebut dapat didefinisikan sebagai array integer. Besarnya array tergantung dari nilai test casenya.
+
+	Karena pada soal diminta untuk menginputkan bilangan 3 buah bilangan sebanyak nilai dari test case, bilang tersebut dapat didefinisikan sebagai array integer. Besarnya array tergantung dari nilai test casenya.
 	```
 	public static void main(String[] args) {  
 		Scanner scanner = new Scanner(System.in);  
