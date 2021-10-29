@@ -1,11 +1,13 @@
 
+
 ## Modul 3: Pengenalan Pemrograman Berorientasi Objek
  
 ### Dasar Teori
 Pemrograman Berorientasi Objek (Object Oriented Programming/OOP) merupakan pemrograman yang berorientasikan kepada objek, dimana semua data dan fungsi dibungkus dalam class- class atau object-object.  PBO memiliki beberapa karakteristik mendasar, antara lain adalah abstraksi, encapculation (pembungkusan), inheritance (pewarisan), dan polymorphism.
 
 * **Mendeklarasikan suatu class**
-Class adalah wadah yang berisi abstraksi (pemodelan) dari suatu fungsi objek (benda), yang mendeskripsikan data (sifat 	karakteristik) dan fungsi yang dimiliki oleh objek tersebut. 
+
+	Class adalah wadah yang berisi abstraksi (pemodelan) dari suatu fungsi objek (benda), yang mendeskripsikan data (sifat 	karakteristik) dan fungsi yang dimiliki oleh objek tersebut. 
 
 	Deklarasi class dapat dilakukan dengan sintaks sebagai berikut:
 	```
@@ -18,7 +20,8 @@ Class adalah wadah yang berisi abstraksi (pemodelan) dari suatu fungsi objek (be
 	public class Mobil{ }
 	```
 * **Mendeklarasikan suatu atribut**
-Attributes merupakan nilai (type) data yang terdapat pada suatu object yang berasal dari class. Attributes merepresentasikan karakteristik dari suatu object. 
+	
+	Attributes merupakan nilai (type) data yang terdapat pada suatu object yang berasal dari class. Attributes merepresentasikan karakteristik dari suatu object. 
 
 	Deklarasi atribut dapat dilakukan dengan sintaks sebagai berikut:
 	```
@@ -29,7 +32,8 @@ Attributes merupakan nilai (type) data yang terdapat pada suatu object yang bera
 	public String warna;
 	```
 * **Mendeklarasikan suatu metode** 
-Metode/method adalah sesuatu yang dapat dilakukan oleh objek. Method dalam implementasi program ditulis dalam bentuk fungsi. Metode menentukan apa yang terjadi ketika objek itu dibuat serta berbagai operasi yang dapat dilakukan objek.
+	
+	Metode/method adalah sesuatu yang dapat dilakukan oleh objek. Method dalam implementasi program ditulis dalam bentuk fungsi. Metode menentukan apa yang terjadi ketika objek itu dibuat serta berbagai operasi yang dapat dilakukan objek.
 
 	Deklarasi metode dapat dilakukan dengan sintaks sebagai berikut:
 	```
@@ -45,7 +49,8 @@ Metode/method adalah sesuatu yang dapat dilakukan oleh objek. Method dalam imple
 	```
 
 * **Mengakses anggota suatu objek**
-Untuk dapat mengakses anggota-anggota dari suatu obyek, maka harus dibuat instance dari class tersebut terlebih dahulu. 
+	
+	Untuk dapat mengakses anggota-anggota dari suatu obyek, maka harus dibuat instance dari class tersebut terlebih dahulu. 
 
 	Berikut ini adalah contoh pengaksesan anggota-anggota dari class Mobil:
 	```
