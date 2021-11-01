@@ -139,6 +139,16 @@ public class Tabungan {
 ```
 
 Fungsi di bawah ini memuat logika sederhana pengambilan uang. Jika saldo mencukupi atau lebih dari jumlah yang ingin diambil, maka kurangi saldo dengan jumlah uang yang diambil lalu kembalikan nilai true. Sebaliknya, cukup kembalikan nilai false saja.
+```
+public boolean ambilUang(int jumlah) {  
+	if (saldo >= jumlah) {  
+		saldo -= jumlah;  
+		return true;  
+	} else {  
+		return false;  
+	}  
+}  
+```
 
 ### Kesimpulan
 * Attribute atau property merupakan sebuah variabel atau konstanta.
