@@ -9,6 +9,8 @@ public class Tabungan {
     public Tabungan(String nama, int noRekening) {
         this.nama = nama;
         this.noRekening = noRekening;
+        this.setSaldo(10000);
+        this.setPin(11111);
     }
 
     public Tabungan(String nama, int noRekening, int saldo, int pin) {
