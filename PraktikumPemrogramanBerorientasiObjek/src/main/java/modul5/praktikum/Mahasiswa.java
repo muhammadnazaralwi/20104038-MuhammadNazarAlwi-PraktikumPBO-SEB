@@ -16,4 +16,12 @@ public class Mahasiswa {
         this.nrp = nrp;
         this.nama = nama;
     }
+
+    public int getNrp() {
+        return nrp;
+    }
+
+    public String getNama() {
+        return nama;
+    }
 }
