@@ -1,7 +1,6 @@
 package modul5.tugas;
 
-import modul5.tugas.perbankan.Nasabah;
-import modul5.tugas.perbankan.Tabungan;
+import modul5.tugas.perbankan.*;
 
 public class TesLatihan {
     public static void main(String args[]) {
