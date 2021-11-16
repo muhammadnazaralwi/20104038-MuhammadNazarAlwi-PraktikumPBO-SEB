@@ -14,7 +14,7 @@ public class InheritanceTest {
         anak.setX(5);
         anak.setY(4);
         anak.getNilai();
-        anak.setz(50);
+        anak.setZ(50);
         anak.getJumlah();
     }
 }
