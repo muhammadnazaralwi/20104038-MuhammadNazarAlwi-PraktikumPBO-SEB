@@ -1,7 +1,7 @@
 package modul6.praktikum.percobaan4;
 
 public class A {
-    private int x, y;
+    protected int x, y;
 
     public void setX(int x) {
         this.x = x;
