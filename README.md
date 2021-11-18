@@ -140,4 +140,4 @@ Pemanggilan parentclass's constructor (`super`) harus dipanggil pertama kali kar
 * Untuk mengakses attribute atau behavior parent class dari subclass, gunakan keyword `super`.
 * Constructor merupakan behavior yang pertama kali dipanggil saat objek dibuat.
 * Jika attribute atau behavior yang berada di parent class diakses oleh subclassnya, gunakanlah access modifier `protected` atau `public`.
-* Pemanggilan parent class's constructor harus dipanggil di baris pertama pada subclass's constructor.
+* Pemanggilan parent class's constructor harus dipanggil di baris pertama pada subclass's constructor
