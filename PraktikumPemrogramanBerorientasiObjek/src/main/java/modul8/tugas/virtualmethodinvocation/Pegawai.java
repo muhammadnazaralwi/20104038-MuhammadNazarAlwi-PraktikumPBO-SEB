@@ -1,4 +1,4 @@
-package modul8.tugas;
+package modul8.tugas.virtualmethodinvocation;
 
 public class Pegawai {
     private String name;
