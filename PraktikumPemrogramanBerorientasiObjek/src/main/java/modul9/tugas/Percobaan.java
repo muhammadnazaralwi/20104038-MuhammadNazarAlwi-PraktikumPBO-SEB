@@ -1,4 +1,4 @@
-package modul2.tugas;
+package modul9.tugas;
 import java.util.Scanner;
 
 public class Percobaan {

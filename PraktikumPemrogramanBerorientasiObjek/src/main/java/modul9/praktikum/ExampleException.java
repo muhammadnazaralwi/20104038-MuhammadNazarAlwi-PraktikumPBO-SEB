@@ -1,4 +1,4 @@
-package modul2.praktikum;
+package modul9.praktikum;
 
 import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
